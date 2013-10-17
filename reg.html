@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Регистрация приложения для uCoz API</title>
+	<!--[if lt IE 9]>
+	<script type="text/javascript">
+		var e = ("header,footer,article,aside,section,nav").split(',');
+		for (var i = 0; i < e.length; i++) {
+			document.createElement(e[i]);
+		}
+	</script>
+	<![endif]-->
+	<link rel="stylesheet" href="./css/default.css" />
+</head>
+<body>
+<div class="wrap">
+	<header class="center-inner">
+		<a href="//www.ucoz.ru" target="_blank">
+			<img src="./img/logo.png" alt="uCoz Logo" />
+		</a>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis corporis obcaecati repudiandae, saepe vero?
+		</p>
+	</header>
+	<div class="title"></div>
+	<div class="form-block">
+		<form action="" method="POST">
+			<ul class="form-rows reset-ul">
+				<li>
+					<label for="f-p-name" class="input-title">Project name</label>
+					<span class="input-field"><input id="f-p-name" type="text" autofocus /></span>
+				</li>
+				<li>
+					<label for="f-redirect-url" class="input-title">Redirect url</label>
+					<span class="input-field"><input id="f-redirect-url" type="password" name="" /></span>
+				</li>
+				<li>
+					<label for="f-cons-key" class="input-title">Consumer key</label>
+					<span class="input-field"><input id="f-cons-key" type="text" /></span>
+				</li>
+				<li>
+					<label for="f-cons-secret" class="input-title">Consumer secret</label>
+					<span class="input-field"><input id="f-cons-secret" type="text" /></span>
+				</li>
+				<li class="center-inner">
+					<button class="submit-btn" onclick="$('#submit').click();">Save</button>
+					<input id="submit" type="submit" style="display: none;">
+				</li>
+			</ul>
+		</form>
+	</div>
+	<footer class="center-inner">
+		&copy; 2013 <a href="//www.ucoz.ru" target="_blank">uCoz</a> - <a href="//www.ucoz.ru" target="_blank">Главная страница</a> - <a href="#!">Справка</a>
+	</footer>
+</div>
+</body>
+</html>

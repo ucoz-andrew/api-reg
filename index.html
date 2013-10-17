@@ -1,9 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<meta charset="utf-8" />
+	<title>Регистрация приложения для uCoz API</title>
+	<!--[if lt IE 9]>
+	<script type="text/javascript">
+		var e = ("header,footer,article,aside,section,nav").split(',');
+		for (var i = 0; i < e.length; i++) {
+			document.createElement(e[i]);
+		}
+	</script>
+	<![endif]-->
+	<link rel="stylesheet" href="./css/default.css" />
 </head>
 <body>
-
+<header class="center-inner">
+	<a href="//www.ucoz.ru" target="_blank">
+		<img src="./img/logo.png" alt="uCoz Logo" />
+	</a>
+</header>
+<div class="title"></div>
+<div class="form-block">
+	<form action="" method="POST">
+		<ul class="form-rows reset-ul">
+			<li>
+				<label for="f-email" class="input-title">E-mail</label>
+				<span class="input-field"><input id="f-email" type="text" autofocus /></span>
+			</li>
+			<li>
+				<label for="f-password" class="input-title">Password</label>
+				<span class="input-field"><input id="f-password" type="password" name="" /></span>
+			</li>
+			<li class="center-inner">
+				<button class="submit-btn" onclick="$('#submit').click();">Login</button>
+				<input id="submit" type="submit" style="display: none;">
+			</li>
+		</ul>
+	</form>
+</div>
+<footer class="center-inner">
+	&copy; 2013 <a href="//www.ucoz.ru" target="_blank">uCoz</a> - <a href="//www.ucoz.ru" target="_blank">Главная страница</a> - <a href="#!">Справка</a>
+</footer>
 </body>
 </html>
