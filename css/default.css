@@ -59,7 +59,15 @@ body {
 }
 .wrap {
 	max-width: 500px;
+	min-width: 300px;
 	margin: auto;
+}
+a {
+	color: #095691;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
 }
 p {
 	margin: 12px 0;
